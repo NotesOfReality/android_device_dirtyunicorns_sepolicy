@@ -22,3 +22,6 @@ allow gallery_app vendor_file:file { rx_file_perms };
 
 # Gallery2 crop avatar
 allow gallery_app system_app_data_file:file { create_file_perms rw_file_perms };
+
+#Gallery2 renderscript
+allow gallery_app app_data_file:file { execute };
