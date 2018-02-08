@@ -4,5 +4,5 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/qcom/common \
-    device/lineage/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/elixir/sepolicy/qcom/common \
+    device/elixir/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
