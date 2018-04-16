@@ -4,10 +4,10 @@
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/elixir/sepolicy/common/public
+    device/mdroid/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/elixir/sepolicy/common/private
+    device/mdroid/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/elixir/sepolicy/common/vendor
+    device/mdroid/sepolicy/common/vendor

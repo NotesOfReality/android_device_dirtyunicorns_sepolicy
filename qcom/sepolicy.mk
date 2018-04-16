@@ -4,8 +4,8 @@
 #
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/elixir/sepolicy/qcom/private
+    device/mdroid/sepolicy/qcom/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/elixir/sepolicy/qcom/common \
-    device/elixir/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/mdroid/sepolicy/qcom/common \
+    device/mdroid/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
