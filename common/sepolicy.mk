@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from MDroid
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
