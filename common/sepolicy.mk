@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from MDroid
+# inherit from du
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/mdroid/sepolicy/common/public
+    device/du/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/mdroid/sepolicy/common/private
+    device/du/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/mdroid/sepolicy/common/vendor
+    device/du/sepolicy/common/vendor
